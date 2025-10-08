@@ -21,6 +21,25 @@ margin-bottom: 20px; /* Space below paragraphs */
 font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    background-color: #04325a;
+    padding: 20px;
+    border-radius: 10px;
+}
+.container > div {
+    background-color: #fab403;
+    border: 5px solid black;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 25px;
+    text-align: center;
+    width: 50%;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}
 
 ul {
     color: rgb(81, 0, 255);
